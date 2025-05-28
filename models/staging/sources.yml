@@ -1,0 +1,13 @@
+sources:
+  - name : tpch
+    description : "tpch data source"
+    database : snowflake_sample_data
+    schema : tpch_sf1
+    tables:
+      - name: orders
+        description: "order table"
+      - name : customer
+        description : " customer table"
+      - name : lineitem 
+        description : " line item table"
+        
